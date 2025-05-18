@@ -14,4 +14,4 @@ This is a required project - Basic Information Site - for [The Odin Project](htt
 - [Satoshi Font](https://www.fontshare.com/fonts/satoshi)
 
 ## Demo
-Check out the [live demo](https://sjdumas.com/basic-info-site).
+Check out the [live demo](https://info.sjdumas.com/).
