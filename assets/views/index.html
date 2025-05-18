@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A sample portfolio site built with Node.js, HTML, and CSS.">
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="stylesheet" href="/fontawesome/css/all.min.css">
+		<title>Home | Basic Information Site</title>
+	</head>
+	<body>
+		<nav>
+			<a href="/" class="logo">
+				<img src="/assets/images/logo.svg" alt="Site logo">
+			</a>
+			<button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+				<i class="fas fa-bars"></i>
+			</button>
+			<ul class="nav-links">
+				<li><a href="/" class="active" aria-current="page">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/contact-me">Contact</a></li>
+			</ul>
+		</nav>
+		<main class="container">
+			<h1>Hello. Welcome.</h1>
+			<p>This website is a sample project built using Node.js and vanilla HTML, CSS, and JavaScript. It includes custom routing, responsive design, and a dynamic navigation menu.</p>
+			<p>The goal of this project is to demonstrate basic frontend layout skills, semantic HTML structure, and minimal backend routing using core Node.js tools. It also showcases how to serve static assets and handle <a href="/nothing">404 errors</a> gracefully.</p>
+			<div class="projects">
+				<h2>Projects</h2>
+					<div class="current-projects">
+					<div class="project">
+						<a href="#" target="_blank">
+							<img src="/assets/images/img-1.jpg" alt="Screenshot of Project 1">
+						</a>
+						<div class="project-info">
+							<h3>My Project</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="project">
+						<a href="#" target="_blank">
+							<img src="/assets/images/img-2.jpg" alt="Screenshot of Project 2">
+						</a>
+						<div class="project-info">
+							<h3>My Project</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="project">
+						<a href="#" target="_blank">
+							<img src="/assets/images/img-3.jpg" alt="Screenshot of Project 3">
+						</a>
+						<div class="project-info">
+							<h3>My Project</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="project">
+						<a href="#" target="_blank">
+							<img src="/assets/images/img-4.jpg" alt="Screenshot of Project 4">
+						</a>
+						<div class="project-info">
+							<h3>My Project</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<h4 class="text-center">Connect With Me</h4>
+			<ul>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+				</li>
+				<li>
+					<a href="/contact-me"><i class="fa-solid fa-envelope"></i></a>
+				</li>
+			</ul>
+		</footer>
+		<script src="/assets/js/nav-toggle.js"></script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# dotenv / config (if used in the future)
+.env
+
+# VSCode or editor settings (optional)
+.vscode/
+.idea/
+
+# Mac/Linux swap/backup files
+*~
+*.swp
+*.swo

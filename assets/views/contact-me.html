@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A sample portfolio site built with Node.js, HTML, and CSS.">
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="stylesheet" href="/fontawesome/css/all.min.css">
+		<title>Contact | Basic Information Site</title>
+	</head>
+	<body>
+		<nav>
+			<a href="/" class="logo">
+				<img src="/assets/images/logo.svg" alt="Site logo">
+			</a>
+			<button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+				<i class="fas fa-bars"></i>
+			</button>
+			<ul class="nav-links">
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/contact-me" class="active" aria-current="page">Contact</a></li>
+			</ul>
+		</nav>
+		<main class="container">
+			<h1>Contact</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ratione minus facilis deleniti odit corrupti repudiandae in vitae error atque dolorum, illo esse est, ipsa aut?</p>
+			<form id="contact-form">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Your name" required>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="Your email" required>
+				<label for="subject">Subject</label>
+				<input type="text" name="subject" id="subject" placeholder="Your subject" required>
+				<label for="message">Message</label>
+				<textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
+				<button type="submit">Send Message</button>
+				<!-- Hidden success message -->
+				<p id="form-success" class="hidden text-center">✅ Your message has been sent (not really — this is a demo).</p>
+			</form>
+		</main>
+		<footer>
+			<h4 class="text-center">Connect With Me</h4>
+			<ul>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+				</li>
+				<li>
+					<a href="/contact-me"><i class="fa-solid fa-envelope"></i></a>
+				</li>
+			</ul>
+		</footer>
+		<script src="/assets/js/nav-toggle.js"></script>
+		<script src="/assets/js/form-handler.js" defer></script>
+	</body>
+</html>

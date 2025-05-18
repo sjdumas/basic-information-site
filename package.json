@@ -1,0 +1,25 @@
+{
+  "name": "basic-information-site",
+  "version": "1.0.0",
+  "description": "This is a required project - Basic Information Site - for [The Odin Project](https://www.theodinproject.com/).",
+  "homepage": "https://github.com/sjdumas/basic-information-site#readme",
+  "bugs": {
+    "url": "https://github.com/sjdumas/basic-information-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjdumas/basic-information-site.git"
+  },
+  "license": "ISC",
+  "author": "SJ Dumas",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "nodemon": "^3.1.10"
+  }
+}

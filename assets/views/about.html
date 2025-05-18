@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A sample portfolio site built with Node.js, HTML, and CSS.">
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="stylesheet" href="/fontawesome/css/all.min.css">
+		<title>About | Basic Information Site</title>
+	</head>
+	<body>
+		<nav>
+			<a href="/" class="logo">
+				<img src="/assets/images/logo.svg" alt="Site logo">
+			</a>
+			<button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+				<i class="fas fa-bars"></i>
+			</button>
+			<ul class="nav-links">
+				<li><a href="/">Home</a></li>
+				<li><a href="/about" class="active" aria-current="page">About</a></li>
+				<li><a href="/contact-me">Contact</a></li>
+			</ul>
+		</nav>
+		<main class="container">
+			<h1>About</h1>
+			<section>
+				<div class="profile-img">
+					<img src="/assets/images/avatar.png" alt="Avatar Image">
+				</div>
+				<blockquote>
+					"Coding is akin to an author writing a novel. The difference between the two is that a coding project is a never ending story."
+				</blockquote>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ratione minus facilis deleniti odit corrupti repudiandae in vitae error atque dolorum, illo esse est, ipsa aut? Inventore quasi veniam minima.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sunt, eaque officiis quia ullam cum culpa earum. Velit, soluta neque. Dicta odio nihil fugiat voluptatum illo repellat nisi commodi atque.</p>
+			</section>
+			<section class="work">
+				<h2>Work</h2>
+				<p>I specialize in full stack web development and UI/UX design. Here are some of the places I have worked.</p>
+				<div class="all-jobs">
+					<div class="job">
+						<img src="https://placehold.co/50x50" alt="Company logo placeholder">
+						<div class="job-info">
+							<p>Senior Software Engineer</p>
+							<p>ABC Corp</p>
+							<p>2023 - Current</p>
+						</div>
+					</div>
+					<div class="job">
+						<img src="https://placehold.co/50x50" alt="Company logo placeholder">
+						<div class="job-info">
+							<p>Junior Software Engineer</p>
+							<p>DEF Corp</p>
+							<p>2016 - 2023</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="skillset">
+				<h2>Skills</h2>
+				<ul>
+					<li>HTML/CSS/JavaScript</li>
+					<li>React</li>
+					<li>Node.js</li>
+					<li>Ruby/Rails</li>
+					<li>UI/UX</li>
+				</ul>
+			</section>
+		</main>
+		<footer>
+			<h4 class="text-center">Connect With Me</h4>
+			<ul>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+				</li>
+				<li>
+					<a href="/contact-me"><i class="fa-solid fa-envelope"></i></a>
+				</li>
+			</ul>
+		</footer>
+		<script src="/assets/js/nav-toggle.js"></script>
+	</body>
+</html>
