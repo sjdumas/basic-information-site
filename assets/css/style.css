@@ -263,6 +263,11 @@ button:hover {
 button.hamburger {
 	padding: 0;
 	width: max-content;
+	background-color: transparent;
+}
+
+button.hamburger:hover {
+	background-color: transparent;
 }
 
 .hamburger {
@@ -416,10 +421,10 @@ footer li:last-child {
 		position: absolute;
 		top: 100%;
 		right: 0;
+		width: 40%;
 		padding: 1em;
-		background-color: var(--nav-bg-color);
+		background-color: var(--white);
 		border-radius: 5px;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 		z-index: 1000;
 	}
 
